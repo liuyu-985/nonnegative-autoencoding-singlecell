@@ -86,7 +86,7 @@ Batch label used for conditioning / invariance evaluation: **`donor_id`**.
    Conditioning on donor_id; produces shared and condition-aware embeddings.
 
 4. **Conditional AE-NMF (Model 2)**  
-   Alternative conditional formulation using donor_id conditioning.
+   Conditional formulation using donor_id conditioning.
 
 ---
 
@@ -104,7 +104,7 @@ Metadata required for downstream benchmarks:
 
 ---
 
-## How to run (high level)
+## How to run
 
 1) Train models (SLURM recommended)
 - Submit one of the scripts in `SLRUM_jobs_code/` (GPU for AE-NMF variants).
